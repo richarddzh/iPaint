@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD582C0DA1D0D100B32029 /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58280DA1D0D100B32029 /* MyDocument.xib */; };
+		1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD582A0DA1D0D100B32029 /* MainMenu.xib */; };
+		791058C514258D0D000C8871 /* MyUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 791058C414258D0D000C8871 /* MyUIController.m */; };
+		794188F51426D8E4005E9C5F /* InspectorDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 794188F41426D8E4005E9C5F /* InspectorDemoView.m */; };
+		7943660B1421CB6E00A436EF /* MyCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 7943660A1421CB6E00A436EF /* MyCanvas.m */; };
+		795EBD82142A03B700363D57 /* toolpen.png in Resources */ = {isa = PBXBuildFile; fileRef = 795EBD81142A03B700363D57 /* toolpen.png */; };
+		795EBDAD142A0BB600363D57 /* brushtool.png in Resources */ = {isa = PBXBuildFile; fileRef = 795EBDAC142A0BB600363D57 /* brushtool.png */; };
+		7971ADC5142C0FE300405722 /* brushbar1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7971ADC3142C0FE300405722 /* brushbar1.png */; };
+		7971ADC6142C0FE300405722 /* brushbar2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7971ADC4142C0FE300405722 /* brushbar2.png */; };
+		7971ADF1142C20C600405722 /* tooleraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 7971ADF0142C20C600405722 /* tooleraser.png */; };
+		7971AE3F142C3D7F00405722 /* MyBitmapImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7971AE3E142C3D7F00405722 /* MyBitmapImage.m */; };
+		7971AF06142C58F500405722 /* toolbucket.png in Resources */ = {isa = PBXBuildFile; fileRef = 7971AF05142C58F500405722 /* toolbucket.png */; };
+		79C38B76142D964500C2133C /* toolselany.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C38B74142D964500C2133C /* toolselany.png */; };
+		79C38B77142D964500C2133C /* toolselrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C38B75142D964500C2133C /* toolselrect.png */; };
+		79CA6388142DDBE500151784 /* toolcopy.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CA6386142DDBE500151784 /* toolcopy.png */; };
+		79CA6389142DDBE500151784 /* toolcut.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CA6387142DDBE500151784 /* toolcut.png */; };
+		79CA63B9142E04B300151784 /* toolpaste.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CA63B8142E04B300151784 /* toolpaste.png */; };
+		79EC6EB3142B41DE0009E350 /* brushgauss.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EC6EAF142B41DE0009E350 /* brushgauss.png */; };
+		79EC6EB4142B41DE0009E350 /* brushoval.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EC6EB0142B41DE0009E350 /* brushoval.png */; };
+		79EC6EB5142B41DE0009E350 /* brushrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EC6EB1142B41DE0009E350 /* brushrect.png */; };
+		79EDCF0C142D71240024B216 /* toolbezier.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EDCF0B142D71240024B216 /* toolbezier.png */; };
+		79EDCF28142D7AC30024B216 /* tooltext.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EDCF27142D7AC30024B216 /* tooltext.png */; };
+		79F3D78814317B540006D5F7 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 79F3D78714317B540006D5F7 /* icon.icns */; };
+		79F3D79014317DFE0006D5F7 /* toolcrop.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F3D78F14317DFE0006D5F7 /* toolcrop.png */; };
+		79F3F3CB14235A6600E30B89 /* zoom1.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F3F3CA14235A6600E30B89 /* zoom1.png */; };
+		79F3F3D014235C3F00E30B89 /* zoom0.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F3F3CE14235C3F00E30B89 /* zoom0.png */; };
+		79F3F3D114235C3F00E30B89 /* zoom2.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F3F3CF14235C3F00E30B89 /* zoom2.png */; };
+		79FD576E142600F400A606C8 /* toolline.png in Resources */ = {isa = PBXBuildFile; fileRef = 79FD576B142600F400A606C8 /* toolline.png */; };
+		79FD576F142600F400A606C8 /* toolrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 79FD576C142600F400A606C8 /* toolrect.png */; };
+		79FD5770142600F400A606C8 /* toolround.png in Resources */ = {isa = PBXBuildFile; fileRef = 79FD576D142600F400A606C8 /* toolround.png */; };
+		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC310486D014006FF6A4 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58290DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		1DDD582B0DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2564AD2C0F5327BB00F57823 /* iPaint_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPaint_Prefix.pch; sourceTree = "<group>"; };
+		2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		791058C314258D0D000C8871 /* MyUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUIController.h; sourceTree = "<group>"; };
+		791058C414258D0D000C8871 /* MyUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUIController.m; sourceTree = "<group>"; };
+		794188F31426D8E4005E9C5F /* InspectorDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectorDemoView.h; sourceTree = "<group>"; };
+		794188F41426D8E4005E9C5F /* InspectorDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectorDemoView.m; sourceTree = "<group>"; };
+		794366091421CB6E00A436EF /* MyCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCanvas.h; sourceTree = "<group>"; };
+		7943660A1421CB6E00A436EF /* MyCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCanvas.m; sourceTree = "<group>"; };
+		795EBD81142A03B700363D57 /* toolpen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolpen.png; sourceTree = "<group>"; };
+		795EBDAC142A0BB600363D57 /* brushtool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brushtool.png; sourceTree = "<group>"; };
+		7971ADC3142C0FE300405722 /* brushbar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brushbar1.png; sourceTree = "<group>"; };
+		7971ADC4142C0FE300405722 /* brushbar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brushbar2.png; sourceTree = "<group>"; };
+		7971ADF0142C20C600405722 /* tooleraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tooleraser.png; sourceTree = "<group>"; };
+		7971AE3D142C3D7F00405722 /* MyBitmapImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBitmapImage.h; sourceTree = "<group>"; };
+		7971AE3E142C3D7F00405722 /* MyBitmapImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBitmapImage.m; sourceTree = "<group>"; };
+		7971AF05142C58F500405722 /* toolbucket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbucket.png; sourceTree = "<group>"; };
+		79C38B74142D964500C2133C /* toolselany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolselany.png; sourceTree = "<group>"; };
+		79C38B75142D964500C2133C /* toolselrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolselrect.png; sourceTree = "<group>"; };
+		79CA6386142DDBE500151784 /* toolcopy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolcopy.png; sourceTree = "<group>"; };
+		79CA6387142DDBE500151784 /* toolcut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolcut.png; sourceTree = "<group>"; };
+		79CA63B8142E04B300151784 /* toolpaste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolpaste.png; sourceTree = "<group>"; };
+		79EC6EAF142B41DE0009E350 /* brushgauss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brushgauss.png; sourceTree = "<group>"; };
+		79EC6EB0142B41DE0009E350 /* brushoval.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brushoval.png; sourceTree = "<group>"; };
+		79EC6EB1142B41DE0009E350 /* brushrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brushrect.png; sourceTree = "<group>"; };
+		79EDCF0B142D71240024B216 /* toolbezier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbezier.png; sourceTree = "<group>"; };
+		79EDCF27142D7AC30024B216 /* tooltext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tooltext.png; sourceTree = "<group>"; };
+		79F3D78714317B540006D5F7 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		79F3D78F14317DFE0006D5F7 /* toolcrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolcrop.png; sourceTree = "<group>"; };
+		79F3F3CA14235A6600E30B89 /* zoom1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zoom1.png; sourceTree = "<group>"; };
+		79F3F3CE14235C3F00E30B89 /* zoom0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zoom0.png; sourceTree = "<group>"; };
+		79F3F3CF14235C3F00E30B89 /* zoom2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zoom2.png; sourceTree = "<group>"; };
+		79FD576B142600F400A606C8 /* toolline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolline.png; sourceTree = "<group>"; };
+		79FD576C142600F400A606C8 /* toolrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolrect.png; sourceTree = "<group>"; };
+		79FD576D142600F400A606C8 /* toolround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolround.png; sourceTree = "<group>"; };
+		8D15AC360486D014006FF6A4 /* iPaint-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPaint-Info.plist"; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* iPaint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPaint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+				13E42FBA07B3F13500E4EEF1 /* CoreData.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* iPaint.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* iPaint */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = iPaint;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */,
+				2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */,
+				794366091421CB6E00A436EF /* MyCanvas.h */,
+				7943660A1421CB6E00A436EF /* MyCanvas.m */,
+				791058C314258D0D000C8871 /* MyUIController.h */,
+				791058C414258D0D000C8871 /* MyUIController.m */,
+				794188F31426D8E4005E9C5F /* InspectorDemoView.h */,
+				794188F41426D8E4005E9C5F /* InspectorDemoView.m */,
+				7971AE3D142C3D7F00405722 /* MyBitmapImage.h */,
+				7971AE3E142C3D7F00405722 /* MyBitmapImage.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2564AD2C0F5327BB00F57823 /* iPaint_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				79F3D78F14317DFE0006D5F7 /* toolcrop.png */,
+				79F3D78714317B540006D5F7 /* icon.icns */,
+				79CA63B8142E04B300151784 /* toolpaste.png */,
+				79CA6386142DDBE500151784 /* toolcopy.png */,
+				79CA6387142DDBE500151784 /* toolcut.png */,
+				79C38B74142D964500C2133C /* toolselany.png */,
+				79C38B75142D964500C2133C /* toolselrect.png */,
+				79EDCF27142D7AC30024B216 /* tooltext.png */,
+				79EDCF0B142D71240024B216 /* toolbezier.png */,
+				7971AF05142C58F500405722 /* toolbucket.png */,
+				7971ADF0142C20C600405722 /* tooleraser.png */,
+				7971ADC3142C0FE300405722 /* brushbar1.png */,
+				7971ADC4142C0FE300405722 /* brushbar2.png */,
+				79EC6EAF142B41DE0009E350 /* brushgauss.png */,
+				79EC6EB0142B41DE0009E350 /* brushoval.png */,
+				79EC6EB1142B41DE0009E350 /* brushrect.png */,
+				795EBDAC142A0BB600363D57 /* brushtool.png */,
+				795EBD81142A03B700363D57 /* toolpen.png */,
+				79FD576B142600F400A606C8 /* toolline.png */,
+				79FD576C142600F400A606C8 /* toolrect.png */,
+				79FD576D142600F400A606C8 /* toolround.png */,
+				79F3F3CE14235C3F00E30B89 /* zoom0.png */,
+				79F3F3CF14235C3F00E30B89 /* zoom2.png */,
+				79F3F3CA14235A6600E30B89 /* zoom1.png */,
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				8D15AC360486D014006FF6A4 /* iPaint-Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				1DDD58280DA1D0D100B32029 /* MyDocument.xib */,
+				1DDD582A0DA1D0D100B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* iPaint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "iPaint" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPaint;
+			productInstallPath = "$(HOME)/Applications";
+			productName = iPaint;
+			productReference = 8D15AC370486D014006FF6A4 /* iPaint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "iPaint" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* iPaint */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* iPaint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				1DDD582C0DA1D0D100B32029 /* MyDocument.xib in Resources */,
+				1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */,
+				79F3F3CB14235A6600E30B89 /* zoom1.png in Resources */,
+				79F3F3D014235C3F00E30B89 /* zoom0.png in Resources */,
+				79F3F3D114235C3F00E30B89 /* zoom2.png in Resources */,
+				79FD576E142600F400A606C8 /* toolline.png in Resources */,
+				79FD576F142600F400A606C8 /* toolrect.png in Resources */,
+				79FD5770142600F400A606C8 /* toolround.png in Resources */,
+				795EBD82142A03B700363D57 /* toolpen.png in Resources */,
+				795EBDAD142A0BB600363D57 /* brushtool.png in Resources */,
+				79EC6EB3142B41DE0009E350 /* brushgauss.png in Resources */,
+				79EC6EB4142B41DE0009E350 /* brushoval.png in Resources */,
+				79EC6EB5142B41DE0009E350 /* brushrect.png in Resources */,
+				7971ADC5142C0FE300405722 /* brushbar1.png in Resources */,
+				7971ADC6142C0FE300405722 /* brushbar2.png in Resources */,
+				7971ADF1142C20C600405722 /* tooleraser.png in Resources */,
+				7971AF06142C58F500405722 /* toolbucket.png in Resources */,
+				79EDCF0C142D71240024B216 /* toolbezier.png in Resources */,
+				79EDCF28142D7AC30024B216 /* tooltext.png in Resources */,
+				79C38B76142D964500C2133C /* toolselany.png in Resources */,
+				79C38B77142D964500C2133C /* toolselrect.png in Resources */,
+				79CA6388142DDBE500151784 /* toolcopy.png in Resources */,
+				79CA6389142DDBE500151784 /* toolcut.png in Resources */,
+				79CA63B9142E04B300151784 /* toolpaste.png in Resources */,
+				79F3D78814317B540006D5F7 /* icon.icns in Resources */,
+				79F3D79014317DFE0006D5F7 /* toolcrop.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC310486D014006FF6A4 /* MyDocument.m in Sources */,
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				7943660B1421CB6E00A436EF /* MyCanvas.m in Sources */,
+				791058C514258D0D000C8871 /* MyUIController.m in Sources */,
+				794188F51426D8E4005E9C5F /* InspectorDemoView.m in Sources */,
+				7971AE3F142C3D7F00405722 /* MyBitmapImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58280DA1D0D100B32029 /* MyDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58290DA1D0D100B32029 /* English */,
+			);
+			name = MyDocument.xib;
+			sourceTree = "<group>";
+		};
+		1DDD582A0DA1D0D100B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD582B0DA1D0D100B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05733C808A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iPaint_Prefix.pch;
+				INFOPLIST_FILE = "iPaint-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = iPaint;
+			};
+			name = Debug;
+		};
+		C05733C908A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iPaint_Prefix.pch;
+				INFOPLIST_FILE = "iPaint-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = iPaint;
+			};
+			name = Release;
+		};
+		C05733CC08A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C05733CD08A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "iPaint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733C808A9546B00998B17 /* Debug */,
+				C05733C908A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "iPaint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733CC08A9546B00998B17 /* Debug */,
+				C05733CD08A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}
